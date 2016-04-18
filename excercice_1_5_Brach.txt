@@ -1,0 +1,21 @@
+#Create a 'test' branch in your repository.
+    a. Switch between the 'master' branch and the 'test' branch.
+    b. Add a file to the 'test' branch.
+    c. Switch back to the 'master' branch.
+    d. Merge this 'test' branch into your 'master' branch.
+
+__________________________________________________________________________________________________
+a.________________________________________________________________________________________
+(applied_python)[hhbar@ip-172-30-0-38 classe1]$ git branch
+* master
+  test
+  
+  (applied_python)[hhbar@ip-172-30-0-38 classe1]$ git checkout test
+M       git_clone.txt
+Switched to branch 'test'
+(applied_python)[hhbar@ip-172-30-0-38 classe1]$ git branch
+  master
+* test
+(applied_python)[hhbar@ip-172-30-0-38 classe1]$ 
+____________________________________________________________________________________________
+b.________________________________________________________________________________________
